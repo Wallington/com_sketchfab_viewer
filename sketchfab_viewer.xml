@@ -1,4 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <extension type="compontent" version="3.2.0" method="upgrade">
 
+    <!--
+        Define this compontent 
+    -->
+    <name>Sketchfab Viewer</name>
+    <creationDate>December 2016</creationDate>
+    <author>Sean O'Brien</author>
+    <authorEmail>portfolio.sean.obrien@gmail.com</authorEmail>
+    <authorUrl>http://www.sean-portfolio.com</authorUrl>
+    <copyright>Copyright (C) OPEN SOURCE </copyright>
+
+    <!-- the version of this component -->
+    <version>0.0.1</version>
+
+    <!-- The description is optional and default to the name -->
+    <description>User give list of 3D model URL and this place it</description>
+
+    <!-- Run on Update; new since Joomla  
+    
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+    
+     skipping this now but coding in later-->
+
+
 </extension>
