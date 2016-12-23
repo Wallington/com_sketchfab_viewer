@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" version="3.2.0" method="upgrade">
+
+    <!--
+        Define this compontent 
+    -->
+    <name>Sketchfab Viewer</name>
+    <creationDate>December 2016</creationDate>
+    <author>Sean O'Brien</author>
+    <authorEmail>portfolio.sean.obrien@gmail.com</authorEmail>
+    <authorUrl>http://www.sean-portfolio.com</authorUrl>
+    <copyright>Copyright (C) OPEN SOURCE </copyright>
+    <license>License Info Goes Here</license>
+
+    <!-- the version of this component -->
+    <version>0.0.1</version>
+
+    <!-- The description is optional and default to the name -->
+    <description>User give list or playlist from Sketchfab of 3D model URL and this place it</description>
+
+    <!-- Run on Update; new since Joomla  -->
+    
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+    
+
+       <!-- site main file copy section-->
+    <!-- 
+        NOte the folder attribute: This attruibute describes the folder
+        to copy FROM in the package to intstall therefore files copied
+        in this section are copied from /site/ in the package
+    -->
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>sketchfabviewer.php</filename>
+        
+    </files>
+
+    <administration>
+        <!-- Administration Menu Section -->
+        <menu link='index.php?option=com_sketchfabviewer'>Sketchfab Viewer</menu>
+        
+        <!-- Administration Mian file Copy Section -->
+        <!-- 
+            NOte the folder attribute: This attruibute describes the folder
+            to copy FROM in the package to intstall therefore files copied
+            in this section are copied from /admin/ in the package
+        -->
+        <files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>sketchfabviewer.php</filename>
+			<!-- SQL files section -->
+			<folder>sql</folder>
+		</files>
+    </administration>
+</extension>
