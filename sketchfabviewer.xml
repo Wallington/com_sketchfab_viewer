@@ -5,18 +5,18 @@
         Define this compontent 
     -->
     <name>Sketchfab Viewer</name>
-    <creationDate>December 2016</creationDate>
+    <creationDate>January 2017</creationDate>
     <author>Sean O'Brien</author>
     <authorEmail>portfolio.sean.obrien@gmail.com</authorEmail>
     <authorUrl>http://www.sean-portfolio.com</authorUrl>
-    <copyright>Copyright (C) OPEN SOURCE </copyright>
+    <copyright>Copyright (C) </copyright>
     <license>License Info Goes Here</license>
 
     <!-- the version of this component -->
-    <version>0.0.1</version>
+    <version>0.0.4</version>
 
     <!-- The description is optional and default to the name -->
-    <description>User give list or playlist from Sketchfab of 3D model URL and this place it</description>
+    <description>Displaying from Sketchfab of 3D model place into joomla</description>
 
     <!-- Run on Update; new since Joomla  -->
     
@@ -36,7 +36,8 @@
     <files folder="site">
         <filename>index.html</filename>
         <filename>sketchfabviewer.php</filename>
-        
+        <folder>views</folder>
+        <folder>models</folder>
     </files>
 
     <administration>
